@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "absorbToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"faucet-project/FaucetReceiver.sol": "FaucetReceiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"faucet-project/Faucet.sol": {
+			"keccak256": "0x4433fa03a09f7619dbb10b4807efce1ffc645e0e489df3f18628288fc33420fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f6a0b032e52565eeb983b2cc465a99fc87a7d56bdb7c981c055f40d5c4c71c2",
+				"dweb:/ipfs/QmX5XQB8hUPiQSQUGHsMPXo8jrERDhhaaS4e6wsgScPP5F"
+			]
+		},
+		"faucet-project/FaucetReceiver.sol": {
+			"keccak256": "0x2a7265cdb33b2954ceeba4d96dc2165113a640d357caf13698113220a731f1b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b93fe00d5d7434cd8c2b1a6541e1f6956bc2278b1ef2e2f7b1c85ecf8ab17182",
+				"dweb:/ipfs/QmcHp4QB9xUJqpdBxfEZnvJ9pKrewx6JqTPNycq5h6cLTp"
+			]
+		}
+	},
+	"version": 1
+}

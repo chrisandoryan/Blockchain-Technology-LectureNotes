@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getFaucetBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"faucet-project/Faucet.sol": "Faucet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"faucet-project/Faucet.sol": {
+			"keccak256": "0x4433fa03a09f7619dbb10b4807efce1ffc645e0e489df3f18628288fc33420fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f6a0b032e52565eeb983b2cc465a99fc87a7d56bdb7c981c055f40d5c4c71c2",
+				"dweb:/ipfs/QmX5XQB8hUPiQSQUGHsMPXo8jrERDhhaaS4e6wsgScPP5F"
+			]
+		}
+	},
+	"version": 1
+}
